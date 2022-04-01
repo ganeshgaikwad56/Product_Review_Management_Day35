@@ -25,7 +25,7 @@ namespace ProductReviewManagementWithLinq
                 new ProductReview() { ProductID = 6, UserId = 5, Rating = 3, Review = "Bad", IsLike = false },
                 new ProductReview() { ProductID = 7, UserId = 2, Rating = 1, Review = "Good", IsLike = false },
                 new ProductReview() { ProductID = 8, UserId = 4, Rating = 1, Review = "bad", IsLike = true },
-                new ProductReview() { ProductID = 9, UserId = 8, Rating = 2, Review = "bad", IsLike = false },
+                new ProductReview() { ProductID = 9, UserId = 8, Rating = 5, Review = "bad", IsLike = false },
                 new ProductReview() { ProductID = 10, UserId = 3, Rating = 4, Review = "Good", IsLike = true },
                 new ProductReview() { ProductID = 11, UserId = 7, Rating = 3, Review = "bad", IsLike = false },
                 new ProductReview() { ProductID = 12, UserId = 13, Rating = 2, Review = "Good", IsLike = true }, 
@@ -49,8 +49,8 @@ namespace ProductReviewManagementWithLinq
             //    Console.WriteLine("ProductID:" + list.ProductID + "UserId" + list.UserId + "Rating" + list.Rating + "Review" + list.Review + "IsLike" + list.IsLike);
             //}
             Management management = new Management();
-            management.TopRecordsList(listProductReview);
-            //management.SelectedRecordList(listProductReview);
+            //management.TopRecordsList(listProductReview);
+            management.SelectedRecordList(listProductReview);
             //management.CountOfRecords(listProductReview);
         }
     }
