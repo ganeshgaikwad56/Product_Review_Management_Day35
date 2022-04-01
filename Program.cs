@@ -50,8 +50,8 @@ namespace ProductReviewManagementWithLinq
             //}
             Management management = new Management();
             //management.TopRecordsList(listProductReview);
-            management.SelectedRecordList(listProductReview);
-            //management.CountOfRecords(listProductReview);
+            //management.SelectedRecordList(listProductReview);
+            management.CountOfRecords(listProductReview);
         }
     }
         
